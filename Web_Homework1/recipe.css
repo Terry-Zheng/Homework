@@ -1,5 +1,5 @@
 /* 
-  recipe.css written by Zheng Guobin
+  recipe.css written by Zheng Guobin(17326066)
 
   Finished extra part:
     1.Background
@@ -32,11 +32,17 @@ h2 {
 body {  
   color: rgb(64, 64, 64);
   background-color: white;
-  background-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+  background-image: 
+    url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
   background-attachment: fixed;
   background-repeat: repeat;
   font-family: Georgia, Garamond, serif;
   font-size: 11pt;
+}
+
+/* The bulleted list */
+ul {
+  list-style: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif")
 }
 
 /* The quotations */
@@ -48,7 +54,5 @@ blockquote {
 /* The links */
 a {color: rgb(164, 164, 0)}
 
-/* The bulleted list */
-ul {list-style: none}
-ul li::before {content: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif")}
-
+/* Image */
+img {border: none}
